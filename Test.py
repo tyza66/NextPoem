@@ -6,4 +6,4 @@ model = GPT2LMHeadModel.from_pretrained("uer/gpt2-chinese-poem")
 
 text_generator = TextGenerationPipeline(model,tokenizer)
 
-print(text_generator("[CLS] 万 丈 高 楼 平 地 起",max_length=50,do_sample=True))
+print(text_generator("[CLS] 万 丈 高 楼 平 地 起",max_length=49,do_sample=True))
